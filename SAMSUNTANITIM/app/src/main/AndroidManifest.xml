@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/samsun"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SAMSUNTANITIM"
+        tools:targetApi="31">
+        <activity
+            android:name=".firindakabak"
+            android:exported="false" />
+        <activity
+            android:name=".paluze"
+            android:exported="false" />
+        <activity
+            android:name=".kocakarigerdani"
+            android:exported="false" />
+        <activity
+            android:name=".kivratma"
+            android:exported="false" />
+        <activity
+            android:name=".halucka"
+            android:exported="false" />
+        <activity
+            android:name=".yazipancari"
+            android:exported="false" />
+        <activity
+            android:name=".nokul"
+            android:exported="false" />
+        <activity
+            android:name=".oymaagackebabi"
+            android:exported="false" />
+        <activity
+            android:name=".baklalisarma"
+            android:exported="false" />
+        <activity
+            android:name=".simit"
+            android:exported="false" />
+        <activity
+            android:name=".cakallimenemeni"
+            android:exported="false" />
+        <activity
+            android:name=".pide"
+            android:exported="false" />
+        <activity
+            android:name=".keskek"
+            android:exported="false" />
+        <activity
+            android:name=".sahil"
+            android:exported="false" />
+        <activity
+            android:name=".alisverismerkezleri"
+            android:exported="false" />
+        <activity
+            android:name=".tabiat_parklari"
+            android:exported="false" />
+        <activity
+            android:name=".dogal_guzellikler"
+            android:exported="false" />
+        <activity
+            android:name=".muzeler"
+            android:exported="false" />
+        <activity
+            android:name=".tatlilar"
+            android:exported="false" />
+        <activity
+            android:name=".yemekler"
+            android:exported="false" />
+        <activity
+            android:name=".mekanlar"
+            android:exported="false" />
+        <activity
+            android:name=".gecmis"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
